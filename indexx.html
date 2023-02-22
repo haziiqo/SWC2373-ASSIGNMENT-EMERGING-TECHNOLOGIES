@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webex Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <div class = "main">
+            <div clss = "appname"> Webex Application</div>
+            <div class ="personal_info" id="personal_info" ></div>
+            <div class="getPersonal_info" id ="getPersonal_info">Personal Info</div>
+            <div class ="exit" id="exit">Exit</div>
+            <div class="getRoom_section" id="getRoom_section">Room Section</div>
+            <div class="create_room" id="create_room">
+                <form id="create_id">
+                    <b><u>CREATE A ROOM</u></b>
+                    <div>
+                        <br>Enter Room Name:
+                        <input type="text" id="titleid">
+                        <button type="submit">Create</button>
+                    </div>
+                </form>
+            </div>
+            <div class="invite" id="invite">
+                <form id="inv_id">
+                    <b><u> INVITE PEOPLE TO ROOM</u></b>
+                    <div>
+                        <br>Enter Room ID:
+                        <input type="password" id="room_id1">
+                        <br>Person Email:
+                        <input type="text" id="emailid">
+                        <button type="submit">Invite</button>
+                    </div>
+                </form>
+            </div>
+            <div class="sendmessage" id="sendmessage">
+                <form id="formid">
+                    <div>
+                        Enter Room ID:
+                        <input type="password" id="room_id2">
+                        <br>Enter Message :
+                        <textarea name="" id="message" rows="8"></textarea>
+                        <br><button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="roomlist" id="roomlist"></div>
+            <div class="getListroom" id="getListroom">Get List Room</div>
+            <div class="back" id="back">Back</div>
+            <div class="base">
+                <div class="webexlogo1">
+                    <img src="logo.jpg" alt="webex" width="30" height="30">
+                </div>
+            </div>
+            <div class="darkoverlay" id="darkoverlay">
+                <div class="webexlogo" id="webexlogo">
+                    <img src="logo.jpg" alt="webex" width="118" height="112">
+                </div>
+                <div class="access_token" id="access_token">
+                    Access Token
+                </div>
+                <p>
+                    <input type="password" class="tokeninputfield" id="tokeninputfield">
+                </p>
+                <div class="login" id="login">Login</div>
+            </div>
+        </div>
+    </div>
+    <script src="personalInfo.js"></script>
+    <script src="listRoom.js"></script>
+    <script src="backpersonalInfo.js"></script>
+</body>
+</html>
