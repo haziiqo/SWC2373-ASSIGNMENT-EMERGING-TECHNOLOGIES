@@ -48,7 +48,7 @@ function animate3(){
     }
 }
 function exit() {
-    window.location.href = "indexx.html";
+    window.location.href = "AM2111010423.html";
 }
 function apperdiv(id){
     return document.getElementById(id).style.display = "unset"
