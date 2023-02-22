@@ -45,7 +45,7 @@ function animate(){
     }
 }
 function exit() {
-    window.location.href = "indexx.html";
+    window.location.href = "AM2111010423.html";
 }
 function hidediv(id){
     return document.getElementById(id).style.display="none"

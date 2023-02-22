@@ -128,7 +128,7 @@ function invitePeople(e){
     })
 }
 function exit() {
-    window.location.href = "indexx.html";
+    window.location.href = "AM2111010423.html";
 }
 function appeardiv(id){
     return document.getElementById(id).style.display = "unset"
